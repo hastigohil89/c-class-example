@@ -1,19 +1,21 @@
-#include<conio.h>
 #include<stdio.h>
+#include<conio.h>
 
 void main()
 {
-  int a;
-  clrscr();
-  printf("\n enter A:");
-  scanf("%d" ,&a);
-  if(a%2==0)
-  {
-     printf("\n A is even number");
-  }
-  else
-  {
-     printf("\n B is odd number");
-  }
-  getch();
+   int a,b;
+   clrscr();
+   printf("\n enter A:");
+   scanf("%d" ,&a);
+   printf("\n enter B:");
+   scanf("%d" ,&b);
+   if(a>b)
+   {
+      printf("\n A is a max number");
+   }
+   else
+   {
+       printf("\n B is a max number");
+   }
+   getch();
 }
