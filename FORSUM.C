@@ -11,6 +11,6 @@ void main()
   {
       sum=sum+i;
   }
-  printf("\n sum: %d");
+  printf("\n sum: %d",sum);
   getch();
 }
